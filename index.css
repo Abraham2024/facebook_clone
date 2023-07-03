@@ -4,6 +4,9 @@ body{
     flex-direction: column;
     text-transform: capitalize;
 }
+.head{
+    font-size: small;
+}
 .title{
     background-color: palegoldenrod;
     width: 100%;
@@ -19,7 +22,7 @@ h4{
 }
 #text{
     width: 100%;
-    height: 4vh;
+    height: 7vh;
     display: flex;
     flex-direction: column;
 }
@@ -64,7 +67,7 @@ p.or{
 }
 #login{
     width: 100%;
-    min-height: 5vh;
+    height: 7vh;
     background-color: rgb(15, 15, 240);
     color: white;
     text-transform: capitalize;
