@@ -5,7 +5,7 @@ body{
     text-transform: capitalize;
 }
 .head{
-    font-size: small;
+    font-size: 9px;
 }
 .title{
     background-color: palegoldenrod;
