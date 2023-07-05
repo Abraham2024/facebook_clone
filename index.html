@@ -13,19 +13,17 @@
     <div>
         <h4 > facebook</h4>
     </div>
+    <form>
     <div class = "text">
-        <input type = "text" id = "text" placeholder ="Mobile number or email address" required><br>
-        <input type = 'text' id = "text" placeholder = "password" required>
-<br>
-        <input type = "button" id = "login" value = "log in" onclick = "submit()">
+        <input type = "text" id = "text" placeholder ="Mobile number or email address" minlength="4" maxlength="11" required>
+        <input type = 'text' id = "text" placeholder = "password" minlength="5" maxlength="15" required>
+        <input type = "submit" id = "login" value = "log in" onclick = "submit()">
         <p class = "pass"> forgotten password </p>
-        <p class = "or ">_____________________or_______________________</p>
-        <input type = "button" onclick = "submit()" id = "submit" value = "create new account">
+        <p class = "or ">_________________or____________________</p>
+        <input type = "submit" onclick = "submit()" id = "submit" value = "create new account">
     </div>
-    <div></div>
-    <div></div>
-    <br>
-    <br>
+</form>
+<br><br><br><br>
     <div class = "row">
         <div class = "col1">
     <p class = "meta1"> English(Uk) </p>
